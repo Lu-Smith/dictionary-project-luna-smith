@@ -1,6 +1,14 @@
-.App {
+.App .title {
   margin: 30px;
   text-align: center;
   color: red;
   font-size: 30px;
+}
+
+.App footer {
+  margin: 100px;
+}
+
+.App .portfolio {
+  text-decoration: none;
 }
