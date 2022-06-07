@@ -1,3 +1,10 @@
-.word-definition {
+.Definition {
+  text-align: left;
+}
+.Definition .word-definition {
   color: black;
+}
+
+.Definition .word-example {
+  color: rgb(92, 16, 16);
 }
