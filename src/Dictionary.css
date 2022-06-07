@@ -1,4 +1,18 @@
 .Dictionary {
-  color: purple;
   text-align: center;
+}
+
+.Dictionary .form {
+  background: #1d5c63;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+}
+
+.Dictionary .inside-form {
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  width: 80%;
 }

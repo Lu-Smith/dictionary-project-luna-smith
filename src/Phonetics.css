@@ -4,5 +4,7 @@
 }
 
 .Phonetics .word-pronunciations {
-  font-size: 23px;
+  font-size: 25px;
+  color: #ede6db;
+  margin: 20px;
 }

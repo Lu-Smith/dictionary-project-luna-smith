@@ -4,9 +4,11 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <header className="title">Dictionary</header>
+      <header className="title">
+        <span className="book">📖</span> Dictionary
+      </header>
       <main>
-        <Dictionary />
+        <Dictionary initialKeyword="mythology" />
       </main>
       <footer className="text-center">
         Coded by{" "}
@@ -19,7 +21,7 @@ function App() {
         >
           Luna Smith
         </a>{" "}
-        and open-sourced on{" "}
+        , open-source on{" "}
         <a
           href="https://github.com/Lu-Smith/dictionary-project-luna-smith"
           alt="Luna Smith GitHub"
