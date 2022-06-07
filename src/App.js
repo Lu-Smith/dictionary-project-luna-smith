@@ -18,6 +18,16 @@ function App() {
           className="portfolio"
         >
           Luna Smith
+        </a>{" "}
+        and open-sourced on{" "}
+        <a
+          href="https://github.com/Lu-Smith/dictionary-project-luna-smith"
+          alt="Luna Smith GitHub"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="portfolio"
+        >
+          GitHub
         </a>
       </footer>
     </div>
