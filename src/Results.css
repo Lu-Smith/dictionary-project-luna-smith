@@ -1,3 +1,8 @@
 .Results {
   margin-top: 30px;
 }
+
+.Results .search-word {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
