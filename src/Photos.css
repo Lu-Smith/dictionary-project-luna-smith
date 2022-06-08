@@ -1,0 +1,15 @@
+.Photos img {
+  border-radius: 6px;
+}
+
+.Photos .photo {
+  font-size: 12px;
+}
+.Photos .photographer {
+  text-decoration: none;
+  color: #417d7a;
+}
+
+.Photos .photographer:hover {
+  color: black;
+}

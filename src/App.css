@@ -1,6 +1,8 @@
 .App {
   background: #ede6db;
   padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .App .title {
