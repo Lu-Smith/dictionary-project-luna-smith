@@ -24,3 +24,23 @@
   color: #ede6db;
   font-family: "Kaushan Script", cursive;
 }
+
+@media (max-width: 700px) {
+  .Results {
+    margin-top: 20px;
+  }
+
+  .Results .definition-background {
+    padding: 20px;
+  }
+
+  .Results .definition {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
+
+  .Results .search-word {
+    font-size: 33px;
+  }
+}

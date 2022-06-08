@@ -16,3 +16,18 @@
   border-radius: 8px;
   width: 80%;
 }
+
+@media (max-width: 700px) {
+  .Dictionary .form {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+
+  .Dictionary .inside-form {
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 90%;
+  }
+}

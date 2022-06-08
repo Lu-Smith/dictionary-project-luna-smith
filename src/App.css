@@ -12,6 +12,10 @@
   font-size: 60px;
   font-family: "Kaushan Script", cursive;
 }
+.App .ictionary {
+  position: relative;
+  right: 10px;
+}
 
 .App .book {
   width: 150px;
@@ -20,6 +24,7 @@
 .App footer {
   margin-top: 50px;
   color: #1d5c63;
+  font-size: 20px;
 }
 
 .App .portfolio {
@@ -38,4 +43,26 @@
   display: block;
   margin: 0 auto;
   margin-top: 100px;
+}
+
+@media (max-width: 700px) {
+  .App {
+    padding: 30px;
+  }
+  .App .title {
+    margin: 0 5px 10px 5px;
+    font-size: 40px;
+  }
+
+  .App .book {
+    width: 100px;
+  }
+
+  .App .elf {
+    width: 70%;
+  }
+
+  .App footer {
+    font-size: 18px;
+  }
 }

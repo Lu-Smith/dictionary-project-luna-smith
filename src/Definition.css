@@ -10,8 +10,24 @@
 .Definition .word-definition {
   font-weight: bold;
   color: #1d5c63;
+  font-size: 20px;
 }
 
 .Definition .word-example {
   color: #1a3c40;
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  .Definition .word {
+    font-size: 16px;
+  }
+
+  .Definition .word-definition {
+    font-size: 16px;
+  }
+
+  .Definition .word-example {
+    font-size: 16px;
+  }
 }

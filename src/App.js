@@ -1,18 +1,18 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Elf from "./elfreading.png";
-import Owl from "./owlreading.png";
+import Turtle from "./turtlereading.png";
 
 function App() {
   return (
     <div className="App">
       <header className="title">
-        Dictionary
         <img
-          src={Owl}
+          src={Turtle}
           alt="owl rading the book by Luna Smith"
           className="book"
         />
+        <span className="ictionary">ictionary</span>
       </header>
       <main>
         <Dictionary initialKeyword="mythology" />

@@ -13,3 +13,19 @@
 .Photos .photographer:hover {
   color: black;
 }
+
+@media (max-width: 820px) {
+  .Photos .column {
+    min-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .Photos img {
+    border-radius: 3px;
+  }
+  .Photos .column {
+    width: 100%;
+  }
+}
