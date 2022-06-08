@@ -9,16 +9,16 @@
   margin: 0 5px 30px 5px;
   text-align: center;
   color: #1d5c63;
-  font-size: 50px;
+  font-size: 60px;
   font-family: "Kaushan Script", cursive;
 }
 
 .App .book {
-  font-size: 60px;
+  width: 150px;
 }
 
 .App footer {
-  margin-top: 200px;
+  margin-top: 50px;
   color: #1d5c63;
 }
 
@@ -31,4 +31,11 @@
 
 .App .portfolio:hover {
   color: black;
+}
+
+.App .elf {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
 }

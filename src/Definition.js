@@ -7,7 +7,7 @@ export default function Definition(props) {
     <div className="Definition">
       <h3>{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
-        if (index <= 2) {
+        if (index <= 3) {
           return (
             <div key={index} className="word">
               <span className="word-definition">Definition:</span>{" "}
