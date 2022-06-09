@@ -18,7 +18,6 @@ export default function Results(props) {
               );
             })}
           </div>
-
           <div>
             {props.data.meanings.map(function (meaning, index) {
               return (

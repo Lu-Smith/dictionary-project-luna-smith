@@ -21,7 +21,7 @@ function App() {
       <footer className="text-center">
         Coded by{" "}
         <a
-          href="http://www.lunasmithart.com"
+          href="https://preeminent-seahorse-84c5ef.netlify.app/"
           alt="Luna Smith portfolio"
           target="_blank"
           rel="noopener noreferrer"
